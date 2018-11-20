@@ -23,8 +23,6 @@ from PIL import Image, ImageFilter, ImageDraw, ImageFont
 from io import BytesIO
 import unicodedata
 
-TOKEN = "NTEzNDQwODk4NDA3OTg5MjU4.DtJBSA.VPJOeRsf74mXANubjAfqv0IYcLU"
-
 client = commands.Bot(command_prefix="!")
 client.remove_command('help')
 
@@ -899,4 +897,4 @@ async def words(ctx):
         embed = discord.Embed(color=0xff00ea, title=f"Blacklisted words for {server.name}", description="\n".join(formatted))
         await client.say(embed=embed)
         
-client.run(TOKEN)
+client.run(os.environ['TOKEN'])
