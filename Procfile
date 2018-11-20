@@ -1,1 +1,1 @@
-worker: tropical.py
+worker: TropicalBot.tropical.py
