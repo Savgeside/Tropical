@@ -1,0 +1,13 @@
+{
+    "513879882170630166": {
+        "welcome message": "{member} Hey dude welcome, **{server}** is your home now!",
+        "anti links": "disabled",
+        "welcome channel": "general",
+        "muterole": "Not Set",
+        "logs": "Not Set",
+        "farewell channel": "Not Set",
+        "farewell message": "Not Set",
+        "autorole": "Not Set",
+        "img welcomer": "enabled"
+    }
+}
